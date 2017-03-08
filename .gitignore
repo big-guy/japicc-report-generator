@@ -1,0 +1,5 @@
+.gradle
+.DS_Store
+gradlehome
+compat_reports
+compat_reports.internal

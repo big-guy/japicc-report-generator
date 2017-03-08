@@ -1,0 +1,9 @@
+configurations { test }
+
+dependencies { test gradleApi() }
+
+task resolve(dependsOn: configurations.test) {
+    doLast {
+        configurations.test.files
+    }
+}
